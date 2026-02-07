@@ -1,13 +1,13 @@
-To test apis use:http://localhost:3000/api/loan-accounts
-To test apis use:http://localhost:3000/api/loan-details/L001
+To test apis use:https://yellow-ai-loan-agent.onrender.com/api/loan-accounts/
+To test apis use:https://yellow-ai-loan-agent.onrender.com/api/loan-details/L001
 
 
-for post method:http://localhost:3000/api/trigger-otp
+for post method:https://yellow-ai-loan-agent.onrender.com/api/trigger-otp
 body:{
  "phone":"9876543210"
 }
 
-http://localhost:3000/api/verify-otp
+for verifying otp:https://yellow-ai-loan-agent.onrender.com/api/verify-otp
 body:{
  "otp":"1234"
 }
